@@ -36,7 +36,7 @@ node index.js
 
 This will return the table generated for the defined repository in the console and if enabled also generate a table.txt file.
 
-## Example table for node-tydl-core repository
+# Example table for node-tydl-core repository
 
 <div align="center">
 <table>
