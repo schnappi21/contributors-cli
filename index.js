@@ -24,7 +24,7 @@ contributors(repo, opts, function (err, res) {
   }
   let strg = `<div align="center">\n<table>\n<tr>\n`;
   for (let i = 0; i < contributors.length; i++) {
-    if (i % 7 === 0) {
+    if (i % 6 === 0) {
       strg += "</tr>\n<tr>\n";
     }
     strg += `<td align="center"><a href="https://github.com/${contributors[i]}"><img src="${contributors_avatars[i]}?s=100" width="100px;" alt="${contributors[i]}"/><br /><sub><b>${contributors[i]}</b></sub></a><br /></td>\n`;
